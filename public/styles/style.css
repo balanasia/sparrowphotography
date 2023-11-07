@@ -21,7 +21,7 @@ a {
 
 .hero-top {
     padding: 8rem;
-    background-image: url('img/hero-top-overlay.png');
+    background-image: url('/img/hero-top-overlay.png');
     background-position: 0%;
     background-size: cover;
     background-repeat: no-repeat;
