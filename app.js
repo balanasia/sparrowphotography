@@ -11,6 +11,10 @@ app.get("/services", (req, res) => {
     res.render("services.ejs");
 })
 
+app.get("/portfolio", (req, res) => {
+    res.render("portfolio.ejs");
+})
+
 app.listen(port, () => {
     console.log(`Server has started on port ${port}.`);
 });
