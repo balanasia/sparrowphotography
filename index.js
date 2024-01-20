@@ -1,0 +1,3 @@
+//jshint esverion:6
+
+

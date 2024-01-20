@@ -1,5 +1,188 @@
 <%- include("partials/header.ejs") %>
-    <div class="container-fluid p-5 m-6 theme-dark" id="services">
-        
+    <div class="hero text-center theme-dark">
+            <h1>Pricing</h1>
     </div>
+    <!-- <div class="services-menu text-center theme-red">
+        <ul  class="services-menu-items">
+            <a class="services-items" href="#popular-packages"><li>Popular Packages</li></a>
+            <a class="services-items" href=""><li>Additional Items</li></a>
+        </ul>
+    </div> -->
+
+    <div id="#popular-packages" class="theme-light">
+      <div class="services-cards container p-5 pricing-desktop">
+        <h2 class="py-4">Popular Packages</h2>
+        <div class="row">
+          <div class="col-4">
+            <div class="list-group" id="myList" role="tablist">
+              <a class="list-group-item list-group-item-action active" id="list-starter-list" data-toggle="list" href="#list-starter" role="tab" aria-controls="starter">Starter Snapshot Package</a>
+              <a class="list-group-item list-group-item-action" id="list-essential-list" data-toggle="list" href="#list-essential" role="tab" aria-controls="profile">Essential Exposure Bundle</a>
+              <a class="list-group-item list-group-item-action" id="list-premium-list" data-toggle="list" href="#list-premium" role="tab" aria-controls="premium">Premier Portfolio Collection</a>
+            </div>
+          </div>
+          <div class="col-8 p-3 theme-darker rounded">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="list-starter" role="tabpanel" aria-labelledby="list-starter-list">
+                  <div class="pricing-container">
+                    <h3 class="pb-3">Starter Snapshot Package</h3>
+                    <a href="#" class="btn btn-blue">Book Now</a>
+                  </div>
+                <table class="table">
+                  <thead>
+                    <tr style="border-bottom: 2px solid #9A1750">
+                      <th scope="col">Items included</th>
+                      <th scope="col"># of photos</th>
+                      <th scope="col">Price</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td scope="row">Interior and Exterior Photos</td>
+                      <td>15</td>
+                      <td>$100</td>
+                    </tr>
+                    <tr>
+                      <td scope="row"></td>
+                      <td>20</td>
+                      <td>$125</td>
+                    </tr>
+                    <tr>
+                      <td scope="row"></td>
+                      <td>25</td>
+                      <td>$150</td>
+                    </tr>
+                    <tr>
+                      <td scope="row"></td>
+                      <td>30</td>
+                      <td>$175</td>
+                    </tr>
+                    <tr>
+                      <td scope="row"></td>
+                      <td>35</td>
+                      <td>$200</td>
+                    </tr>
+                    <tr>
+                      <td scope="row"></td>
+                      <td>40</td>
+                      <td>$225</td>
+                    </tr>
+                    
+                  </tbody>
+                </table>
+              </div>
+              <div class="tab-pane fade" id="list-essential" role="tabpanel" aria-labelledby="list-essential-list">
+                <h3 class="pb-3">Essential Exposure Bundle</h3>
+                <table class="table">
+                  <thead>
+                    <tr style="border-bottom: 2px solid #9A1750">
+                      <th scope="col">Items included*</th>
+                      <th scope="col"># of photos</th>
+                      <th scope="col">Price</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td scope="row">Interior and Exterior Photos</td>
+                      <td>15</td>
+                      <td>$125</td>
+                    </tr>
+                    <tr>
+                      <td scope="row">2D Floor Plan</td>
+                      <td>20</td>
+                      <td>$150</td>
+                    </tr>
+                    <tr>
+                      <td scope="row"></td>
+                      <td>25</td>
+                      <td>$175</td>
+                    </tr>
+                    <tr>
+                      <td scope="row"></td>
+                      <td>30</td>
+                      <td>$200</td>
+                    </tr>
+                    <tr>
+                      <td scope="row"></td>
+                      <td>35</td>
+                      <td>$225</td>
+                    </tr>
+                    <tr>
+                      <td scope="row"></td>
+                      <td>40</td>
+                      <td>$250</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p class="subtitle">*all items are included regardless of # of photos</p>
+              </div>
+              <div class="tab-pane fade" id="list-premium" role="tabpanel" aria-labelledby="list-premium-list">
+                <h3 class="pb-3">Essential Exposure Bundle</h3>
+                <table class="table">
+                  <thead>
+                    <tr style="border-bottom: 2px solid #9A1750">
+                      <th scope="col">Items included*</th>
+                      <th scope="col"># of photos</th>
+                      <th scope="col">Price</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td scope="row">Interior and Exterior Photos</td>
+                      <td>15</td>
+                      <td>$175</td>
+                    </tr>
+                    <tr>
+                      <td scope="row">2D Floor Plan</td>
+                      <td>20</td>
+                      <td>$200</td>
+                    </tr>
+                    <tr>
+                      <td scope="row">3D Floor Plan</td>
+                      <td>25</td>
+                      <td>$225</td>
+                    </tr>
+                    <tr>
+                      <td scope="row"></td>
+                      <td>30</td>
+                      <td>$250</td>
+                    </tr>
+                    <tr>
+                      <td scope="row"></td>
+                      <td>35</td>
+                      <td>$275</td>
+                    </tr>
+                    <tr>
+                      <td scope="row"></td>
+                      <td>40</td>
+                      <td>$300</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p class="subtitle">*all items are included regardless of # of photos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container pricing-mobile p-2">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Starter Snapshot Package</h5>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    <script>
+        $('#myList a').on('click', function (e) {
+            e.preventDefault()
+            $(this).tab('show')
+        })
+
+        $('#myList a[href="#profile"]').tab('show') // Select tab by name
+        $('#myList a:first-child').tab('show') // Select first tab
+        $('#myList a:last-child').tab('show') // Select last tab
+        $('#myList a:nth-child(3)').tab('show') // Select third tab
+  
+    </script>
 <%- include("partials/footer.ejs") %>

@@ -3,6 +3,7 @@
 h1,h2,h3,h4,h5.h6 {
     font-family: 'Playfair Display', sans-serif;
     font-weight: 300;
+    margin: 0;
 }
 
 a {
@@ -17,6 +18,11 @@ a {
     color: #0f0f0f;
 }
 
+.subtitle {
+    font-size: 0.8em;
+    color: #CECECE
+}
+
 /* HEROES */
 
 .hero-top {
@@ -26,6 +32,10 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     letter-spacing: 1.5;
+}
+
+.hero {
+    padding: 9%;
 }
 
 .top-hero-header {
@@ -68,6 +78,11 @@ nav {
 
 .theme-red {
     background-color: #9A1750;
+    color: #f8f8f8;
+}
+
+.theme-blue {
+    background-color: #016A70;
     color: #f8f8f8;
 }
 
@@ -126,17 +141,102 @@ nav {
 /* SOCIAL MEDIA BUTTONS */
 
 .btn-info {
-    border: 1px solid #9A1750;
-    background-color: #9A1750;
+    border: 1px solid #016A70;
+    background-color: #016A70;
     border-radius: 35px;
     padding: 10px;
 }
 
 .btn-info:hover{
     background-color: transparent;
-    border: 1px solid #9A1750;
+    border: 1px solid #016A70;
 }
 
+.btn-success {
+    text-transform: uppercase;
+    border: 1px solid #9A1750;
+    border-radius: 35px;
+    padding: 15px;
+    background-color: #ffff;
+    color: #000000;
+}
+
+.btn-success:hover {
+    text-transform: uppercase;
+    border: 1px solid #000000;
+    border-radius: 35px;
+    padding: 15px;
+    background-color: #000;
+    color: #fff;
+}
+
+.btn-blue {
+    text-transform: uppercase;
+    border: 1px solid #016A70;
+    border-radius: 35px;
+    padding: 10px;
+    background-color: #016A70;
+    color: #fff;
+    font-size: 0.8rem;;
+}
+
+.btn-blue:hover {
+    text-transform: uppercase;
+    border: 1px solid #000000;
+    border-radius: 35px;
+    padding: 15px;
+    background-color: #fff;
+    color: #000;
+}
+
+.fa-solid.fa-check {
+    padding: 2%;
+}
+
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    
+}
+
+.services-menu-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-transform: uppercase;
+ }
+
+ .services-items{
+    color: #f8f8f8;
+    display: inline-block;
+    padding: 2%;
+ }
+
+ .services-items:hover {
+    color: #CECECE;
+ }
+
+ table { border-collapse:collapse }
+ 
+ .table {
+    --bs-table-bg: #272727:
+ }
+
+.table>:not(caption)>*>* {
+    color: #f7f7f7;
+}
+
+tr {
+    border-style: none;
+    border-color: transparent;
+}
+
+.list-group-item.active {
+    background-color: #9A1750;
+    border-color: #9A1750;
+}
 
 /* CARDS */
 
@@ -225,6 +325,13 @@ nav {
 /* GALLERY */
 
 
+/* SERVICES */
+
+.card.card-services.pricing {
+    border: 1px solid #CECECE;
+    padding: 10%;
+}
+
 /* MEDIA */
 
 @media screen and (max-width: 912px) {
@@ -237,6 +344,18 @@ nav {
 @media (max-width: 912px) and (min-width: 375px)  {
     .header-logo {
         width: 20vw;
+    }
+}
+
+@media (max-width:  767px ) and (min-width: 450px) {
+    .services-cards.container.p-5.pricing-desktop {
+        padding: 20px !important;
+    }
+}
+
+@media (max-width:  450px ) and (min-width: 279px) {
+    .services-cards.container.p-5.pricing-desktop {
+        display: none;
     }
 }
 
@@ -272,6 +391,10 @@ nav {
 
     .about-graphic {
         margin-bottom: 30px;
+    }
+
+    .pricing-mobile {
+        visibility: visible;
     }
 
 }
