@@ -138,6 +138,22 @@ nav {
     text-transform: uppercase;
 }
 
+.btn-darkhover {
+    background-color: #272727;
+    color: #F8F8F8;
+    border: 1px solid #272727;
+    border-radius: 35px;
+    text-transform: uppercase;
+}
+
+.btn-darkhover:hover{
+    background-color: transparent;
+    color: #272727;
+    border: 2px solid #272727;
+    border-radius: 35px;
+    text-transform: uppercase;
+}
+
 /* SOCIAL MEDIA BUTTONS */
 
 .btn-info {
@@ -198,6 +214,8 @@ ul.no-bullets {
     margin: 0; /* Remove margins */
     
 }
+
+
 
 .services-menu-items {
     list-style-type: none;
@@ -293,6 +311,11 @@ tr {
 }
 
 /* CONTACT US */
+
+/* HubSpot form Customization */
+.iCJCmn {
+    display: none !important;
+} 
 
 .contact-text {
     font-size: 200px;
@@ -478,7 +501,7 @@ tr {
 
 @media (max-width: 912px) and (min-width: 375px)  {
     .header-logo {
-        width: 18vw;
+        width: 26vw;
     }
 }
 

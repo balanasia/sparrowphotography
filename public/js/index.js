@@ -1,3 +1,5 @@
+
+
 // GALLERY FUNCTIONALITY
 const html = document.querySelector('html');
 
@@ -129,6 +131,8 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 })
 
+//intialize jQuery
+$(document).ready(function () {
 
 // PRICING FUNCTIONALITY 
 $('#myList a').on('click', function (e) {
@@ -140,3 +144,34 @@ $('#myList a[href="#profile"]').tab('show') // Select tab by name
 $('#myList a:first-child').tab('show') // Select first tab
 $('#myList a:last-child').tab('show') // Select last tab
 $('#myList a:nth-child(3)').tab('show') // Select third tab
+
+// const codemailer = require('nodemailer');
+// const mailgun = require('nodemailer-mailgun-transport');
+
+// const auth = {
+//   auth: {
+//     api_key: 'bed1acea563814860697891e439cefcd-408f32f3-b2add2cc',
+//     domain: 'sandbox37478973007140dfa99488978db93cc8.mailgun.org'
+//   }
+// }
+
+// const transporter = nodemailer.createTransport(mailGun(auth));
+
+// const mailOptions = {
+//   from: 'sparrowrephotography@gmail.com',
+//   to: 'sparrowrephotography@gmail.com',
+//   subject: 'testing',
+//   text: 'get in touch'
+// }
+
+// transporter.sendMail(mailOptions, function(err, data) {
+//   if(err) {
+//     console.log('Oopsie');
+//   } else {
+//     console.log('MailOptions works');
+//   }
+// });
+
+
+
+});
