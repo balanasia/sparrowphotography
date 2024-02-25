@@ -150,8 +150,8 @@ $('#myList a:nth-child(3)').tab('show') // Select third tab
 
 // const auth = {
 //   auth: {
-//     api_key: 'bed1acea563814860697891e439cefcd-408f32f3-b2add2cc',
-//     domain: 'sandbox37478973007140dfa99488978db93cc8.mailgun.org'
+//     api_key: 'API_KEY',
+//     domain: 'domain.org'
 //   }
 // }
 
