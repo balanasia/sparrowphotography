@@ -145,33 +145,5 @@ $('#myList a:first-child').tab('show') // Select first tab
 $('#myList a:last-child').tab('show') // Select last tab
 $('#myList a:nth-child(3)').tab('show') // Select third tab
 
-// const codemailer = require('nodemailer');
-// const mailgun = require('nodemailer-mailgun-transport');
-
-// const auth = {
-//   auth: {
-//     api_key: 'API_KEY',
-//     domain: 'domain.org'
-//   }
-// }
-
-// const transporter = nodemailer.createTransport(mailGun(auth));
-
-// const mailOptions = {
-//   from: 'sparrowrephotography@gmail.com',
-//   to: 'sparrowrephotography@gmail.com',
-//   subject: 'testing',
-//   text: 'get in touch'
-// }
-
-// transporter.sendMail(mailOptions, function(err, data) {
-//   if(err) {
-//     console.log('Oopsie');
-//   } else {
-//     console.log('MailOptions works');
-//   }
-// });
-
-
 
 });
